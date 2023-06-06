@@ -12,6 +12,10 @@ catch(AggregateException exs)
     {
         Console.WriteLine(ex.Message);
         Console.WriteLine(ex.StackTrace);
-    }                 
+    }
+
+    string msg = "Must fit:\ncsv_file separator column_numbers_to_parse";
+
+    Console.WriteLine(msg);
 }
 
